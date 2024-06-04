@@ -1,0 +1,33 @@
+name: transduction_rejection
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipykernel
+  - ipywidgets
+  - numpy
+  - pandas
+  - pytorch=2.1
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchdata>=0.5
+  - nodejs
+  - altair
+  - scipy
+  - scikit-learn
+  - h5py
+  - matplotlib
+  - statsmodels
+  - toolz
+  - tqdm
+  - pip
+  - pylint
+  - dill
+  - pip:
+      - altair-saver
+      - transformers
+      - ray[default]
+      - git+https://github.com/fra31/auto-attack
+
